@@ -1,0 +1,10 @@
+showMessage()
+//Declaration function có thể hoisting(gọi trước khi function đc định nghĩa)
+function showMessage(){
+    console.log('first')
+}
+
+//Expression function không thể hoisting
+var showMessage2 = function(){
+    console.log('second')
+}
